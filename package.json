@@ -1,5 +1,6 @@
 {
   "name": "modul_2",
+  "type": "module",
   "version": "1.0.0",
   "description": "latihan dicoding di modul 2",
   "main": "index.js",
@@ -8,7 +9,10 @@
     "start": "nodemon ./src/server.js",
     "lint": "eslint ./src"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "3.x.x"
+  },
   "devDependencies": {
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
